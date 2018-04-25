@@ -1,0 +1,6 @@
+{
+    "config" : "charCount takes precedence over wordCount [REMOVE THIS LINE FROM THE ACTUAL JSON FILE]",
+    "wordCount": 100,
+    "charCount" : 140,
+    "prefixCount": 2
+}
