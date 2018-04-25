@@ -6,4 +6,5 @@ This uses [golang](https://golang.org/), so you are going to have to [install th
 
 ## Credits
 I based this off https://golang.org/doc/codewalk/markov/, check that if you want more info on how this works.
+
 Special thanks to Danielsangeo for transscribing all of Freeman's dialogue.
