@@ -124,7 +124,7 @@ func main() {
 	var text string
 
 	//Somewhat hacky solution for meeting twitter's character limits,
-	//remove this section if this doesn't matter for you
+	//replace this section with "c.Generate(conf["wordCount"])" if this doesn't matter for you
 	keepgenerating := true
 	for keepgenerating {
 		text = c.Generate(conf["wordCount"])
