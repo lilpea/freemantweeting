@@ -130,7 +130,7 @@ func main() {
 		text = c.Generate(conf["wordCount"])
 		sentencematches := regexp.MustCompile("[.?!] ").FindAllStringSubmatchIndex(text, -1)
 		for i := 0; i < len(sentencematches); {
-			if sentencematches[i][0]-1 >= conf["charCount"]-20 &&
+			if sentencematches[i][0]-1 >= conf["charCount"]-10 &&
 				sentencematches[i][0]-1 <= conf["charCount"] {
 				text = text[:sentencematches[i][0]+1]
 				keepgenerating = false
